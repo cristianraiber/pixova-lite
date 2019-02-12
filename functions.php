@@ -177,9 +177,6 @@ if ( ! function_exists( 'pixova_lite_theme_setup' ) ) {
 			require get_template_directory() . '/inc/libraries/welcome-screen/class-epsilon-welcome-screen.php';
 
 			$pixova_recommended_plugins = array(
-				'kiwi-social-share'        => array(
-					'recommended' => false,
-				),
 				'modula-best-grid-gallery' => array(
 					'recommended' => true,
 				),
